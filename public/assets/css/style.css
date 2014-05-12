@@ -1,73 +1,17 @@
-/* less codes */
-/*THEME RED (with blue skills)*/
-/*
-@themeColor1: #ef473c;
-@themeColor2: #c93328;
-@headerColor: #ffdfdd;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #9acfff;
-*/
+/*RED theme*/
 /*THEME green (with gray skills)*/
-/*THEME blue (with red skills)*/
-/*
-@themeColor1: #32A5C2;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-
-*/
-/*Theme purple (with gray skills)*/
-/*
-@themeColor1: #624f87;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-
-*/
-/*Theme purple lighter (with gray skills)*/
-/*
-@themeColor1: #9b5081;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-
-*/
+/*Blue theme*/
 /*Theme pink lighter (with gray skills)*/
-/*Theme orange-brown*/
-/*
-@themeColor1: #87714f;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-*/
-/*Theme orange*/
-/*
-@themeColor1: #9b6050;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-*/
 /*helper variables */
 /*helper functions (Called Mixins)*/
 /*end mixins*/
 /*general css */
 ::selection {
-  background-color: #f160c3;
+  background-color: #9b6050;
   color: #fff;
 }
 ::-moz-selection {
-  background-color: #f160c3;
+  background-color: #9b6050;
   color: #fff;
 }
 h1,
@@ -117,37 +61,33 @@ textarea.invalid {
   border: 1px solid red;
 }
 /*this is useless, useful if using a background image for full website*/
-/*
-#bgImage{
-  display: none;
-  opacity: 0.02;
+.bgImage {
+  opacity: 1;
+  background: url(/assets/img/forsidebg.jpg) #f0f0f0;
+  background-repeat: repeat;
   filter: alpha(opacity=2);
-  position: absolute;
-  left: 0;
-  top: 0;
   height: 100%;
   z-index: -1;
 }
-*/
 #header,
 #footer {
   color: #ddf2ff;
-  text-shadow: 1px 1px 1px #c11189;
-  background: #f160c3;
+  text-shadow: 1px 1px 1px #472c25;
+  background: #9b6050;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -moz-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f160c3), color-stop(100%, #ed31b1));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9b6050), color-stop(100%, #794b3f));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -webkit-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -o-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -ms-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, #f160c3 0%, #ed31b1 100%);
+  background: linear-gradient(to bottom, #9b6050 0%, #794b3f 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f160c3, endColorstr=#ed31b1, GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#9b6050, endColorstr=#794b3f, GradientType=0);
   /* IE6-8 */
 }
 .homeButton {
@@ -186,10 +126,10 @@ textarea.invalid {
   width: 100%;
   top: 0;
   z-index: 999999;
-  box-shadow: 1px 1px 3px 0px #8b0c63;
-  -webkit-box-shadow: 1px 1px 3px 0px #8b0c63;
-  -moz-box-shadow: 1px 1px 3px 0px #8b0c63;
-  -o-box-shadow: 1px 1px 3px 0px #8b0c63;
+  box-shadow: 1px 1px 3px 0px #201411;
+  -webkit-box-shadow: 1px 1px 3px 0px #201411;
+  -moz-box-shadow: 1px 1px 3px 0px #201411;
+  -o-box-shadow: 1px 1px 3px 0px #201411;
 }
 #header h1,
 #header h2 {
@@ -231,7 +171,6 @@ textarea.invalid {
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background: url(/assets/img/forsidebg.jpg) #f0f0f0;
   background-repeat: repeat;
   color: #121212;
   font-size: 11px;
@@ -301,19 +240,19 @@ body {
   padding: 4px 20px;
   width: auto;
   margin: 2%;
-  background: -moz-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -moz-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f160c3), color-stop(100%, #ed31b1));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9b6050), color-stop(100%, #794b3f));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -webkit-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -o-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #f160c3 0%, #ed31b1 100%);
+  background: -ms-linear-gradient(top, #9b6050 0%, #794b3f 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, #f160c3 0%, #ed31b1 100%);
+  background: linear-gradient(to bottom, #9b6050 0%, #794b3f 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f160c3, endColorstr=#ed31b1, GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#9b6050, endColorstr=#794b3f, GradientType=0);
   /* IE6-8 */
 }
 /*start profile area - contact card */
@@ -549,7 +488,7 @@ body {
   height: 32px;
   line-height: 32px;
   font-size: 12px;
-  background-color: #ed31b1;
+  background-color: #794b3f;
   opacity: 1;
   color: #ffffff;
   transition: all 0.4s;
@@ -620,7 +559,7 @@ body {
   width: 26%;
 }
 #pagePortfolio .list li .groupBox {
-  border-right: 2px solid #f160c3;
+  border-right: 2px solid #9b6050;
 }
 #pagePortfolio .list li .description {
   position: relative;
@@ -649,7 +588,7 @@ body {
   position: absolute;
   right: -10px;
   top: 0;
-  color: #f160c3;
+  color: #9b6050;
   padding: 0 10px 0 10px;
   font-size: 20px;
   height: 100%;

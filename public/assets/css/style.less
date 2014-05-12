@@ -1,113 +1,71 @@
-/* less codes */
-
-
-/*THEME RED (with blue skills)*/
-/*
-@themeColor1: #ef473c;
-@themeColor2: #c93328;
-@headerColor: #ffdfdd;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #9acfff;
-*/
+/*RED theme*/
+//@themeColor1: #ef473c;
+//@themeColor2: #c93328;
+//@headerColor: #ffdfdd;
+//@shadowMeColor: darken(@themeColor1, 36.5%);
+//@textShadowColor: darken(@themeColor1, 25%);
+//@themeSecondarycolor: #9acfff;
 
 /*THEME green (with gray skills)*/
-@themeColor1: #509b75;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
+//@themeColor1: #509b75;
+//@themeColor2: darken(@themeColor1, 10%);
+//@headerColor: #ddf2ff;
+//@shadowMeColor: darken(@themeColor1, 36.5%);
+//@textShadowColor: darken(@themeColor1, 25%);
+//@themeSecondarycolor: #bfbfbf;
 
-/*THEME blue (with red skills)*/
+/*Blue theme*/
+//@themeColor1: #32A5C2;
+//@themeColor2: darken(@themeColor1, 10%);
+//@headerColor: #ddf2ff;
+//@shadowMeColor: darken(@themeColor1, 36.5%);
+//@textShadowColor: darken(@themeColor1, 25%);
+//@themeSecondarycolor: #bfbfbf;
 
-
-/*
-@themeColor1: #32A5C2;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-
-*/
-
-/*Theme purple (with gray skills)*/
-
-/*
-@themeColor1: #624f87;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-
-*/
-
-/*Theme purple lighter (with gray skills)*/
-
-/*
-@themeColor1: #9b5081;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-
-*/
+//Purple Theme
+//@themeColor1: #624f87;
+//@themeColor2: darken(@themeColor1, 10%);
+//@headerColor: #ddf2ff;
+//@shadowMeColor: darken(@themeColor1, 36.5%);
+//@textShadowColor: darken(@themeColor1, 25%);
+//@themeSecondarycolor: #bfbfbf;
 
 
 
-
+//LIGHT purple theme
+//@themeColor1: #9b5081;
+//@themeColor2: darken(@themeColor1, 10%);
+//@headerColor: #ddf2ff;
+//@shadowMeColor: darken(@themeColor1, 36.5%);
+//@textShadowColor: darken(@themeColor1, 25%);
+//@themeSecondarycolor: #bfbfbf;
 
 
 /*Theme pink lighter (with gray skills)*/
+//@themeColor1: #f160c3;
+//@themeColor2: darken(@themeColor1, 10%);
+//@headerColor: #ddf2ff;
+//@shadowMeColor: darken(@themeColor1, 36.5%);
+//@textShadowColor: darken(@themeColor1, 25%);
+//@themeSecondarycolor: #bfbfbf;
 
 
-@themeColor1: #f160c3;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
+//Orange-brown theme
+//@themeColor1: #87714f;
+//@themeColor2: darken(@themeColor1, 10%);
+//@headerColor: #ddf2ff;
+//@shadowMeColor: darken(@themeColor1, 36.5%);
+//@textShadowColor: darken(@themeColor1, 25%);
+//@themeSecondarycolor: #bfbfbf;
+//
 
-
-
-
-
-
-
-/*Theme orange-brown*/
-
-/*
-@themeColor1: #87714f;
-@themeColor2: darken(@themeColor1, 10%);
-@headerColor: #ddf2ff;
-@shadowMeColor: darken(@themeColor1, 36.5%);
-@textShadowColor: darken(@themeColor1, 25%);
-@themeSecondarycolor: #bfbfbf;
-*/
-
-
-
-
-
-/*Theme orange*/
-
-
-/*
+//Brownish theme
 @themeColor1: #9b6050;
 @themeColor2: darken(@themeColor1, 10%);
 @headerColor: #ddf2ff;
 @shadowMeColor: darken(@themeColor1, 36.5%);
 @textShadowColor: darken(@themeColor1, 25%);
 @themeSecondarycolor: #bfbfbf;
-*/
-
-
-
-
-
 
 
 
@@ -267,18 +225,20 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea{
 
 
 /*this is useless, useful if using a background image for full website*/
-/*
-#bgImage{
-  display: none;
-  opacity: 0.02;
+
+.bgImage{
+//  display: none;
+  opacity: 1;
+  background:url(/assets/img/forsidebg.jpg) @bgColor;
+  background-repeat: repeat;
   filter: alpha(opacity=2);
-  position: absolute;
-  left: 0;
-  top: 0;
+//  position: absolute;
+//  left: 0;
+//  top: 0;
   height: 100%;
   z-index: -1;
 }
-*/
+
 
 #header, #footer{
   color: @headerColor;
@@ -387,7 +347,7 @@ input[type="text"], input[type="email"], input[type="tel"], select, textarea{
 body{
   font-family: 'Source Sans Pro', sans-serif;
   //background: @bgColor !important;
-  background:url(/assets/img/forsidebg.jpg) @bgColor;
+//  background:url(/assets/img/forsidebg.jpg) @bgColor;
   //background-repeat:no-repeat;
   //-moz-background-size:100% 100%;
   //-webkit-background-size:100% 100%;
