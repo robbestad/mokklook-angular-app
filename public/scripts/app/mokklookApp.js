@@ -55,5 +55,8 @@ mokklookNs.mokklookApp = angular.module('mokklookApp', ['ngRoute', 'ngResource']
 mokklookNs.mokklookApp.run(function ($rootScope) {
 //    $rootScope.appName="Mokklook super app";
     console.log("running");
+
+    $rootScope.appName="Mokklook";
+
 });
 

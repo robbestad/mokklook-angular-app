@@ -44,7 +44,6 @@ var mokklookNs = mokklookNs || {};
         function aboutController($scope, $rootScope, $timeout, $locale, $route) {
             $rootScope.nextPage = "/resume";
             $rootScope.headerText = "Om meg";
-            $rootScope.appName = "Mokklook";
 
         }]);
 })();
@@ -58,7 +57,6 @@ var mokklookNs = mokklookNs || {};
         function resumeController($scope, $rootScope, $timeout, $locale, $route) {
             $rootScope.nextPage = "/portfolio";
             $rootScope.headerText = "Erfaring";
-            $rootScope.appName = "Mokklook";
 
         }]);
 })();
@@ -70,7 +68,6 @@ var mokklookNs = mokklookNs || {};
         function portfolioController($scope, $rootScope, $timeout, $locale, $route) {
             $rootScope.nextPage = "/contact";
             $rootScope.headerText = "Portefølje";
-            $rootScope.appName = "Mokklook";
 
         }]);
 })();
@@ -82,7 +79,6 @@ var mokklookNs = mokklookNs || {};
         function contactController($scope, $rootScope, $timeout, $locale, $route) {
             $rootScope.nextPage = "/shop";
             $rootScope.headerText = "Kontakt meg";
-            $rootScope.appName = "Mokklook";
 
         }]);
 })();
@@ -94,7 +90,6 @@ var mokklookNs = mokklookNs || {};
         function shopController($scope, $rootScope, $timeout, $locale, $route) {
             $rootScope.nextPage = "/workplace";
             $rootScope.headerText = "Butikk";
-            $rootScope.appName = "Mokklook";
 
         }]);
 })();
@@ -106,7 +101,6 @@ var mokklookNs = mokklookNs || {};
         function workplaceController($scope, $rootScope, $timeout, $locale, $route) {
             $rootScope.nextPage = "/";
             $rootScope.headerText = "Min arbeidsplass";
-            $rootScope.appName = "Mokklook";
 
         }]);
 })();
