@@ -1,5 +1,13 @@
-#mokklook-angular-app
+#Mokklook.com
 
 ####Mokklook website
 
-src for http://www.mokklook.com
+Src for http://www.mokklook.com
+
+* run 'npm install' to update
+
+* develop with 'grunt'
+
+* deploy with 'forever start server.js'
+
+
