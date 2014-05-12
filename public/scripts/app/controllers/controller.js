@@ -84,15 +84,6 @@ var mokklookNs = mokklookNs || {};
 })();
 
 
-(function () {
-    var data;
-    mokklookNs.mokklookApp.controller('shopController',["$scope", "$rootScope", "$timeout", "$locale", "$route",
-        function shopController($scope, $rootScope, $timeout, $locale, $route) {
-            $rootScope.nextPage = "/workplace";
-            $rootScope.headerText = "Butikk";
-
-        }]);
-})();
 
 
 (function () {
