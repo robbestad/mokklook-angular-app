@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<!--if lt IE 7-->
+<html class='ie6' lang='en'>
+<!--if IE 7-->
+<html class='ie7' lang='en'>
+<!--if IE 8-->
+<html class='ie8' lang='en'>
+<!--if IE 9-->
+<html class='ie9' lang='en'>
+<!--if IEMobile 7-->
+<html class="no-js iem7" lang="en">
+<!--if gt IEMobile 7-->
+<html class="no-js" lang="en">
+<html ng-app="mokklookApp" lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="https://www.facebook.com/2008/fbml"
+      itemscope="itemscope" itemtype="http://schema.org/Product">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/js/jquery.qtip.min.css">
+    <link rel="stylesheet" href="/assets/js/jquery-ui-1.8.16.custom.css">
+    <link rel="stylesheet" href="/assets/css/photoswipe.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+
+
+    <meta http-equiv="assets-type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="diy, tegning">
+    <meta name="description" content="Mokklook Design">
+    <meta property="fb:app_id" content="APP_ID">
+    <meta property="og:title" content="Mokklook Design - Shop">
+    <meta property="og:description" content="Mokklook Design">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="APP_URL">
+    <meta property="og:image" content="APP_LOGO">
+    <meta property="og:site_name" content="{{appName}}">
+    <title>Mokklook</title>
+    <meta property="fb:admins" content="APP_ADMIN">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <div id="header"><a href="/" class="homeButton"></a>
+
+            <h1>{{headerText}}</h1>
+
+            <h2>{{appName | uppercase}}</h2><a href="/#{{nextPage}}" class="nextButton">&raquo;&raquo;</a>
+        </div>
+    </header>
+    <div id="pageHome" class="page">
+        <div class="content">
+            <div class="groupBox innerContent">
+                <div class="profileArea">
+                    <div class="profilePicAreaContainer left">
+                        <div class="profilePicArea"><img src="assets/img/profile-pic-bg.png" alt="Profile Pic"
+                                                         class="shadow">
+                            <img src="assets/img/profile-pic-2.jpg" alt="Profile Pic"></div>
+                    </div>
+                    <div class="profileInfoArea left">
+                        <div class="name">Monica Gulbrandsen</div>
+                        <div class="position">Tegner</div>
+                        <div class="location">Hokksund</div>
+                        <div class="social"><a href="#" class="qtipLinker"><img src="assets/img/social.png"
+                                                                                alt="Social"></a></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <section data-ng-view></section>
+    </div>
+
+    <div ng-include src="'/pages/footer.html'"></div>
+
+</div>
+
+
+<!--<div class="container">-->
+
+<!--<header>-->
+<!--<h1>{{appName | uppercase}}</h1>-->
+
+<!--<h3>Random recipes</h3>-->
+<!--</header>-->
+
+<!--<input type="text" ng-model="greeting">-->
+<!--<input type="text" ng-model="greeted">-->
+<!--{{greeting}} {{greeted | json}}-->
+
+<!--<div ng-bind="greeting"></div>-->
+<!--<div ng-bind-template="{{greeting}} {{greeted}}"></div>-->
+
+<!--<div ng-controller="demoController">-->
+<!--<input ng-model="greeting" ng-click="action(greeted)">-->
+<!--<input ng-model="greeted" ng-click="cancel()">-->
+<!--<br>-->
+
+<!--In Scope: <div ng-show="greeting && greeted">{{greeting}} {{greeted}}</div>-->
+<!--</div>-->
+
+<!--<nav>-->
+<!--<ul>-->
+<!--<li><a href="#/">Home</a></li>-->
+<!--<li><a href="#/search">Search Recipes</a></li>-->
+<!--<li><a href="#/random">I feel lucky</a></li>-->
+<!--<li><a href="#/weeklymenu">Weekly Menu</a></li>-->
+<!--<li><a href="#/toprecipes">Top recipes</a></li>-->
+<!--<li><a href="#/contactus">Contact Us</a></li>-->
+<!--</ul>-->
+<!--</nav>-->
+
+<!--<content ng-app="recipeController">-->
+<!--<div class="box">-->
+<!--<div class="leftboxcontent">-->
+<!--<h2><a href="#/search">Search for recipes</a></h2>-->
+<!--Search our database for your favorite recipes.&nbsp; We have recipes for every-->
+<!--occasion and taste.-->
+<!--</div>-->
+<!--<div class="rightboximage"><img class="recipeImage" src="assets/Images/food/egg-clip.jpg"-->
+<!--alt="Recipe search"/></div>-->
+<!--</div>-->
+<!--<div class="box">-->
+<!--<div class="rightboxcontent">-->
+<!--<h2><a href="#/random">I feel lucky</a></h2>-->
+<!--If you are completely out of ideas, we will come up with a recipe idea for you.-->
+<!--</div>-->
+<!--<div class="leftboximage"><img class="recipeImage" ng-src="assets/Images/food/waffles-clip.jpg"-->
+<!--alt="Random recipe"/></div>-->
+<!--</div>-->
+<!--<div class="box">-->
+<!--<div class="leftboxcontent">-->
+<!--<h2><a href="#/weeklymenu">Weekly Menu</a></h2>-->
+<!--Tired of deciding what to eat for dinner? Get some ideas from our weekly menu.-->
+<!--</div>-->
+<!--<div class="rightboximage"><img class="recipeImage" src="assets/Images/food/pizza-clip.jpg"-->
+<!--alt="Weekly menu"/></div>-->
+<!--</div>-->
+<!--<div class="box">-->
+<!--<div class="rightboxcontent">-->
+<!--<h2><a href="#/toprecipes">Top Recipes</a></h2>-->
+<!--See what recipes other users tagged as their favorites-->
+<!--</div>-->
+<!--<div class="leftboximage"><img class="recipeImage" src="assets/Images/food/icecream-clip.jpg"-->
+<!--alt="Top Recipes"/></div>-->
+<!--</div>-->
+<!--</content>-->
+
+<!--<footer>-->
+<!--<p>-->
+<!--<a href="#/">Home</a> | <a href="#/search">Search Recipes</a> |-->
+<!--<a href="#/random">I feel lucky</a> | <a href="#/weeklymenu">Weekly Menu</a>-->
+<!--| <a href="#/toprecipes">Top Recipes</a> |-->
+<!--<a href="#/contactus">Contact Us</a>-->
+<!--</p>-->
+<!--</footer>-->
+<!--</div>-->
+
+
+<script type="text/javascript" src="/lib/angular/angular.js"></script>
+<script type="text/javascript" src="/lib/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="/lib/angular-resource/angular-resource.min.js"></script>
+<script type="text/javascript" src="/lib/angular-i18n/angular-locale_no.js"></script>
+
+
+<!--Modules-->
+<script type="text/javascript" src="scripts/app/mokklookApp.js"></script>
+
+<!--Services-->
+<!--<script src="Scripts/app/Services/recipeValue.js"></script>-->
+<!--<script src="Scripts/app/Services/recipeValues.js"></script>-->
+<!--<script src="Scripts/app/Services/resourceRecipeDataService.js"></script>-->
+
+<!--Controllers-->
+<script type="text/javascript" src="scripts/app/controllers/controller.js"></script>
+<!--<script src="Scripts/app/Controllers/recipeController.js"></script>-->
+<!--<script src="Scripts/app/Controllers/demoController.js"></script>-->
+
+<!--Directives-->
+<!--<script src="Scripts/app/Directives/myNavigation.js"></script>-->
+
+
+<!--&lt;!&ndash;Additional files&ndash;&gt;-->
+<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<!--<script type="text/javascript" src="/assets/js/helper/fallback.js"></script>-->
+<!--<script type="text/javascript" src="/lib/qtip2/jquery.qtip.min.js"></script>-->
+<!--<script type="text/javascript" src="/assets/js/iscroll.js"></script>-->
+<!--<script type="text/javascript" src="/assets/js/photoswipe/klass.min.js"></script>-->
+<!--<script type="text/javascript" src="/assets/js/photoswipe/code.photoswipe.jquery-3.0.5.min.js"></script>-->
+<!--<script type="text/javascript" src="/lib/hammerjs/hammer.min.js"></script>-->
+<!--<script type="text/javascript" src="/assets/js/hammer/jquery.hammer.js"></script>-->
+<!--<script type="text/javascript" src="/assets/js/helper.js"></script>-->
+
+<!--<script type="text/javascript" src="/assets/js/script.js"></script>-->
+
+</body>
+</html>

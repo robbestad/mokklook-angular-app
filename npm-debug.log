@@ -1,0 +1,479 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.25/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/svenanders/Work/robbis/webdev/mokklook3',
+5 verbose install   [ 'prerender-node',
+5 verbose install     'swig',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-csslint',
+5 verbose install     'grunt-contrib-sass',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-less',
+5 verbose install     'grunt-mocha-test',
+5 verbose install     'grunt-env',
+5 verbose install     'open',
+5 verbose install     'grunt-open',
+5 verbose install     'express',
+5 verbose install     'karma',
+5 verbose install     'protractor',
+5 verbose install     'http-server',
+5 verbose install     'bower',
+5 verbose install     'shelljs',
+5 verbose install     'angular',
+5 verbose install     'mongoose',
+5 verbose install     'underscore',
+5 verbose install     'socket.io' ] ]
+6 info preinstall mokklook-homepage@0.0.2
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/svenanders/Work/robbis/webdev/mokklook3
+9 verbose already installed skipping grunt-contrib-sass@~0.7.3 /Users/svenanders/Work/robbis/webdev/mokklook3
+10 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/svenanders/Work/robbis/webdev/mokklook3
+11 verbose already installed skipping grunt-contrib-less@~0.11.0 /Users/svenanders/Work/robbis/webdev/mokklook3
+12 verbose already installed skipping grunt-mocha-test@~0.10.2 /Users/svenanders/Work/robbis/webdev/mokklook3
+13 verbose already installed skipping grunt-env@~0.4.1 /Users/svenanders/Work/robbis/webdev/mokklook3
+14 verbose already installed skipping grunt-open@~0.2.3 /Users/svenanders/Work/robbis/webdev/mokklook3
+15 verbose already installed skipping open@0.0.5 /Users/svenanders/Work/robbis/webdev/mokklook3
+16 verbose already installed skipping express@~3.4.4 /Users/svenanders/Work/robbis/webdev/mokklook3
+17 verbose already installed skipping karma@~0.10 /Users/svenanders/Work/robbis/webdev/mokklook3
+18 verbose already installed skipping protractor@~0.17.0 /Users/svenanders/Work/robbis/webdev/mokklook3
+19 verbose already installed skipping http-server@^0.6.1 /Users/svenanders/Work/robbis/webdev/mokklook3
+20 verbose already installed skipping shelljs@^0.2.6 /Users/svenanders/Work/robbis/webdev/mokklook3
+21 verbose already installed skipping bower@^1.3.1 /Users/svenanders/Work/robbis/webdev/mokklook3
+22 verbose cache add [ 'angular@latest', null ]
+23 verbose cache add name=undefined spec="angular@latest" args=["angular@latest",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'angular@latest',
+24 verbose parsed url   path: 'angular@latest',
+24 verbose parsed url   href: 'angular@latest' }
+25 verbose cache add name="angular" spec="latest" args=["angular","latest"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'latest',
+26 verbose parsed url   path: 'latest',
+26 verbose parsed url   href: 'latest' }
+27 verbose addNamed [ 'angular', 'latest' ]
+28 verbose addNamed [ null, null ]
+29 verbose already installed skipping mongoose@~3.6.2 /Users/svenanders/Work/robbis/webdev/mokklook3
+30 silly lockFile 6c758ed7-angular-latest angular@latest
+31 verbose lock angular@latest /Users/svenanders/.npm/6c758ed7-angular-latest.lock
+32 verbose cache add [ 'socket.io@latest', null ]
+33 verbose cache add name=undefined spec="socket.io@latest" args=["socket.io@latest",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'socket.io@latest',
+34 verbose parsed url   path: 'socket.io@latest',
+34 verbose parsed url   href: 'socket.io@latest' }
+35 verbose cache add name="socket.io" spec="latest" args=["socket.io","latest"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'latest',
+36 verbose parsed url   path: 'latest',
+36 verbose parsed url   href: 'latest' }
+37 verbose addNamed [ 'socket.io', 'latest' ]
+38 verbose addNamed [ null, null ]
+39 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+40 verbose lock socket.io@latest /Users/svenanders/.npm/d01f6c55-socket-io-latest.lock
+41 verbose cache add [ 'underscore@latest', null ]
+42 verbose cache add name=undefined spec="underscore@latest" args=["underscore@latest",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'underscore@latest',
+43 verbose parsed url   path: 'underscore@latest',
+43 verbose parsed url   href: 'underscore@latest' }
+44 verbose cache add name="underscore" spec="latest" args=["underscore","latest"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'latest',
+45 verbose parsed url   path: 'latest',
+45 verbose parsed url   href: 'latest' }
+46 verbose addNamed [ 'underscore', 'latest' ]
+47 verbose addNamed [ null, null ]
+48 silly lockFile 546e1155-underscore-latest underscore@latest
+49 verbose lock underscore@latest /Users/svenanders/.npm/546e1155-underscore-latest.lock
+50 verbose already installed skipping prerender-node@~1.0.1 /Users/svenanders/Work/robbis/webdev/mokklook3
+51 info addNameTag [ 'angular', 'latest' ]
+52 verbose already installed skipping swig@~1.3.2 /Users/svenanders/Work/robbis/webdev/mokklook3
+53 info addNameTag [ 'underscore', 'latest' ]
+54 verbose url raw angular
+55 verbose url resolving [ 'https://registry.npmjs.org/', './angular' ]
+56 verbose url resolved https://registry.npmjs.org/angular
+57 info trying registry request attempt 1 at 19:31:42
+58 verbose etag "B682MCCNKEHJ490Q5JPMPGS4F"
+59 http GET https://registry.npmjs.org/angular
+60 verbose already installed skipping grunt-cli@~0.1.13 /Users/svenanders/Work/robbis/webdev/mokklook3
+61 verbose already installed skipping grunt@~0.4.4 /Users/svenanders/Work/robbis/webdev/mokklook3
+62 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/svenanders/Work/robbis/webdev/mokklook3
+63 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/svenanders/Work/robbis/webdev/mokklook3
+64 verbose already installed skipping grunt-contrib-csslint@~0.2.0 /Users/svenanders/Work/robbis/webdev/mokklook3
+65 verbose url raw underscore
+66 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+67 verbose url resolved https://registry.npmjs.org/underscore
+68 info trying registry request attempt 1 at 19:31:42
+69 verbose etag "54MWQLXRD12540B2HHZYQYQ3D"
+70 http GET https://registry.npmjs.org/underscore
+71 info addNameTag [ 'socket.io', 'latest' ]
+72 verbose url raw socket.io
+73 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+74 verbose url resolved https://registry.npmjs.org/socket.io
+75 info trying registry request attempt 1 at 19:31:42
+76 verbose etag "CWL5M4DJ462VWLIB68Q7EIQGV"
+77 http GET https://registry.npmjs.org/socket.io
+78 http 304 https://registry.npmjs.org/underscore
+79 silly registry.get cb [ 304,
+79 silly registry.get   { date: 'Sun, 11 May 2014 17:31:42 GMT',
+79 silly registry.get     server: 'Apache',
+79 silly registry.get     via: '1.1 varnish',
+79 silly registry.get     'last-modified': 'Sun, 11 May 2014 17:31:42 GMT',
+79 silly registry.get     'cache-control': 'max-age=1',
+79 silly registry.get     etag: '"54MWQLXRD12540B2HHZYQYQ3D"',
+79 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+79 silly registry.get     'x-cache': 'HIT',
+79 silly registry.get     'x-cache-hits': '1',
+79 silly registry.get     'x-timer': 'S1399829502.485530853,VS0,VE0',
+79 silly registry.get     vary: 'Accept',
+79 silly registry.get     'content-length': '0',
+79 silly registry.get     'keep-alive': 'timeout=10, max=50',
+79 silly registry.get     connection: 'Keep-Alive' } ]
+80 verbose etag underscore from cache
+81 verbose addNamed [ 'underscore', '1.6.0' ]
+82 verbose addNamed [ '1.6.0', '1.6.0' ]
+83 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+84 verbose lock underscore@1.6.0 /Users/svenanders/.npm/96960ed1-underscore-1-6-0.lock
+85 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+86 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+87 silly lockFile 546e1155-underscore-latest underscore@latest
+88 silly lockFile 546e1155-underscore-latest underscore@latest
+89 info already installed underscore@1.6.0
+90 http 304 https://registry.npmjs.org/socket.io
+91 silly registry.get cb [ 304,
+91 silly registry.get   { date: 'Sun, 11 May 2014 17:31:43 GMT',
+91 silly registry.get     server: 'Apache',
+91 silly registry.get     via: '1.1 varnish',
+91 silly registry.get     'last-modified': 'Sun, 11 May 2014 17:31:43 GMT',
+91 silly registry.get     'cache-control': 'max-age=1',
+91 silly registry.get     etag: '"CWL5M4DJ462VWLIB68Q7EIQGV"',
+91 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+91 silly registry.get     'x-cache': 'HIT',
+91 silly registry.get     'x-cache-hits': '1',
+91 silly registry.get     'x-timer': 'S1399829503.334165573,VS0,VE166',
+91 silly registry.get     vary: 'Accept',
+91 silly registry.get     'content-length': '0',
+91 silly registry.get     'keep-alive': 'timeout=10, max=50',
+91 silly registry.get     connection: 'Keep-Alive' } ]
+92 verbose etag socket.io from cache
+93 verbose addNamed [ 'socket.io', '0.9.16' ]
+94 verbose addNamed [ '0.9.16', '0.9.16' ]
+95 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+96 verbose lock socket.io@0.9.16 /Users/svenanders/.npm/a7acce22-socket-io-0-9-16.lock
+97 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+98 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+99 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+100 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+101 info already installed socket.io@0.9.16
+102 http 304 https://registry.npmjs.org/angular
+103 silly registry.get cb [ 304,
+103 silly registry.get   { date: 'Sun, 11 May 2014 17:31:43 GMT',
+103 silly registry.get     server: 'Apache',
+103 silly registry.get     via: '1.1 varnish',
+103 silly registry.get     'last-modified': 'Sun, 11 May 2014 17:31:43 GMT',
+103 silly registry.get     'cache-control': 'max-age=1',
+103 silly registry.get     etag: '"B682MCCNKEHJ490Q5JPMPGS4F"',
+103 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+103 silly registry.get     'x-cache': 'MISS',
+103 silly registry.get     'x-cache-hits': '0',
+103 silly registry.get     'x-timer': 'S1399829503.376882076,VS0,VE192',
+103 silly registry.get     vary: 'Accept',
+103 silly registry.get     'content-length': '0',
+103 silly registry.get     'keep-alive': 'timeout=10, max=50',
+103 silly registry.get     connection: 'Keep-Alive' } ]
+104 verbose etag angular from cache
+105 verbose addNamed [ 'angular', '1.2.16' ]
+106 verbose addNamed [ '1.2.16', '1.2.16' ]
+107 silly lockFile fdd35bae-angular-1-2-16 angular@1.2.16
+108 verbose lock angular@1.2.16 /Users/svenanders/.npm/fdd35bae-angular-1-2-16.lock
+109 silly lockFile fdd35bae-angular-1-2-16 angular@1.2.16
+110 silly lockFile fdd35bae-angular-1-2-16 angular@1.2.16
+111 silly lockFile 6c758ed7-angular-latest angular@latest
+112 silly lockFile 6c758ed7-angular-latest angular@latest
+113 info already installed angular@1.2.16
+114 silly resolved []
+115 info build /Users/svenanders/Work/robbis/webdev/mokklook3
+116 verbose linkStuff [ false, false, false, '/Users/svenanders/Work/robbis/webdev' ]
+117 info linkStuff mokklook-homepage@0.0.2
+118 verbose linkBins mokklook-homepage@0.0.2
+119 verbose linkMans mokklook-homepage@0.0.2
+120 verbose rebuildBundles mokklook-homepage@0.0.2
+121 verbose rebuildBundles [ '.bin',
+121 verbose rebuildBundles   'angular',
+121 verbose rebuildBundles   'bower',
+121 verbose rebuildBundles   'express',
+121 verbose rebuildBundles   'grunt',
+121 verbose rebuildBundles   'grunt-cli',
+121 verbose rebuildBundles   'grunt-concurrent',
+121 verbose rebuildBundles   'grunt-contrib-csslint',
+121 verbose rebuildBundles   'grunt-contrib-cssmin',
+121 verbose rebuildBundles   'grunt-contrib-jshint',
+121 verbose rebuildBundles   'grunt-contrib-less',
+121 verbose rebuildBundles   'grunt-contrib-sass',
+121 verbose rebuildBundles   'grunt-contrib-uglify',
+121 verbose rebuildBundles   'grunt-contrib-watch',
+121 verbose rebuildBundles   'grunt-env',
+121 verbose rebuildBundles   'grunt-karma',
+121 verbose rebuildBundles   'grunt-mocha-test',
+121 verbose rebuildBundles   'grunt-nodemon',
+121 verbose rebuildBundles   'grunt-open',
+121 verbose rebuildBundles   'http-server',
+121 verbose rebuildBundles   'karma',
+121 verbose rebuildBundles   'karma-chrome-launcher',
+121 verbose rebuildBundles   'karma-coffee-preprocessor',
+121 verbose rebuildBundles   'karma-firefox-launcher',
+121 verbose rebuildBundles   'karma-html2js-preprocessor',
+121 verbose rebuildBundles   'karma-jasmine',
+121 verbose rebuildBundles   'karma-phantomjs-launcher',
+121 verbose rebuildBundles   'karma-requirejs',
+121 verbose rebuildBundles   'karma-script-launcher',
+121 verbose rebuildBundles   'mongoose',
+121 verbose rebuildBundles   'open',
+121 verbose rebuildBundles   'prerender-node',
+121 verbose rebuildBundles   'protractor',
+121 verbose rebuildBundles   'requirejs',
+121 verbose rebuildBundles   'shelljs',
+121 verbose rebuildBundles   'socket.io',
+121 verbose rebuildBundles   'swig',
+121 verbose rebuildBundles   'underscore' ]
+122 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/grunt-concurrent
+123 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/grunt-concurrent
+124 info preinstall grunt-concurrent@0.5.0
+125 verbose linkStuff [ false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+126 info linkStuff grunt-concurrent@0.5.0
+127 verbose linkBins grunt-concurrent@0.5.0
+128 verbose linkMans grunt-concurrent@0.5.0
+129 verbose rebuildBundles grunt-concurrent@0.5.0
+130 verbose rebuildBundles [ 'async', 'pad-stdio' ]
+131 info install grunt-concurrent@0.5.0
+132 info postinstall grunt-concurrent@0.5.0
+133 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/grunt-karma
+134 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/grunt-karma
+135 info preinstall grunt-karma@0.8.3
+136 verbose linkStuff [ false,
+136 verbose linkStuff   false,
+136 verbose linkStuff   false,
+136 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+137 info linkStuff grunt-karma@0.8.3
+138 verbose linkBins grunt-karma@0.8.3
+139 verbose linkMans grunt-karma@0.8.3
+140 verbose rebuildBundles grunt-karma@0.8.3
+141 verbose rebuildBundles [ 'lodash' ]
+142 info install grunt-karma@0.8.3
+143 info postinstall grunt-karma@0.8.3
+144 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/grunt-nodemon
+145 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/grunt-nodemon
+146 info preinstall grunt-nodemon@0.2.1
+147 verbose linkStuff [ false,
+147 verbose linkStuff   false,
+147 verbose linkStuff   false,
+147 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+148 info linkStuff grunt-nodemon@0.2.1
+149 verbose linkBins grunt-nodemon@0.2.1
+150 verbose linkMans grunt-nodemon@0.2.1
+151 verbose rebuildBundles grunt-nodemon@0.2.1
+152 verbose rebuildBundles [ '.bin', 'nodemon' ]
+153 info install grunt-nodemon@0.2.1
+154 info postinstall grunt-nodemon@0.2.1
+155 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-chrome-launcher
+156 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-chrome-launcher
+157 info preinstall karma-chrome-launcher@0.1.3
+158 verbose linkStuff [ false,
+158 verbose linkStuff   false,
+158 verbose linkStuff   false,
+158 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+159 info linkStuff karma-chrome-launcher@0.1.3
+160 verbose linkBins karma-chrome-launcher@0.1.3
+161 verbose linkMans karma-chrome-launcher@0.1.3
+162 verbose rebuildBundles karma-chrome-launcher@0.1.3
+163 info install karma-chrome-launcher@0.1.3
+164 info postinstall karma-chrome-launcher@0.1.3
+165 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-coffee-preprocessor
+166 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-coffee-preprocessor
+167 info preinstall karma-coffee-preprocessor@0.1.3
+168 verbose linkStuff [ false,
+168 verbose linkStuff   false,
+168 verbose linkStuff   false,
+168 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+169 info linkStuff karma-coffee-preprocessor@0.1.3
+170 verbose linkBins karma-coffee-preprocessor@0.1.3
+171 verbose linkMans karma-coffee-preprocessor@0.1.3
+172 verbose rebuildBundles karma-coffee-preprocessor@0.1.3
+173 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+174 info install karma-coffee-preprocessor@0.1.3
+175 info postinstall karma-coffee-preprocessor@0.1.3
+176 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-firefox-launcher
+177 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-firefox-launcher
+178 info preinstall karma-firefox-launcher@0.1.3
+179 verbose linkStuff [ false,
+179 verbose linkStuff   false,
+179 verbose linkStuff   false,
+179 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+180 info linkStuff karma-firefox-launcher@0.1.3
+181 verbose linkBins karma-firefox-launcher@0.1.3
+182 verbose linkMans karma-firefox-launcher@0.1.3
+183 verbose rebuildBundles karma-firefox-launcher@0.1.3
+184 info install karma-firefox-launcher@0.1.3
+185 info postinstall karma-firefox-launcher@0.1.3
+186 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-html2js-preprocessor
+187 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-html2js-preprocessor
+188 info preinstall karma-html2js-preprocessor@0.1.0
+189 verbose linkStuff [ false,
+189 verbose linkStuff   false,
+189 verbose linkStuff   false,
+189 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+190 info linkStuff karma-html2js-preprocessor@0.1.0
+191 verbose linkBins karma-html2js-preprocessor@0.1.0
+192 verbose linkMans karma-html2js-preprocessor@0.1.0
+193 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+194 info install karma-html2js-preprocessor@0.1.0
+195 info postinstall karma-html2js-preprocessor@0.1.0
+196 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-jasmine
+197 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-jasmine
+198 info preinstall karma-jasmine@0.1.5
+199 verbose linkStuff [ false,
+199 verbose linkStuff   false,
+199 verbose linkStuff   false,
+199 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+200 info linkStuff karma-jasmine@0.1.5
+201 verbose linkBins karma-jasmine@0.1.5
+202 verbose linkMans karma-jasmine@0.1.5
+203 verbose rebuildBundles karma-jasmine@0.1.5
+204 info install karma-jasmine@0.1.5
+205 info postinstall karma-jasmine@0.1.5
+206 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-phantomjs-launcher
+207 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-phantomjs-launcher
+208 info preinstall karma-phantomjs-launcher@0.1.4
+209 verbose linkStuff [ false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+210 info linkStuff karma-phantomjs-launcher@0.1.4
+211 verbose linkBins karma-phantomjs-launcher@0.1.4
+212 verbose linkMans karma-phantomjs-launcher@0.1.4
+213 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+214 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+215 info install karma-phantomjs-launcher@0.1.4
+216 info postinstall karma-phantomjs-launcher@0.1.4
+217 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-requirejs
+218 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-requirejs
+219 info preinstall karma-requirejs@0.2.1
+220 verbose linkStuff [ false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+221 info linkStuff karma-requirejs@0.2.1
+222 verbose linkBins karma-requirejs@0.2.1
+223 verbose linkMans karma-requirejs@0.2.1
+224 verbose rebuildBundles karma-requirejs@0.2.1
+225 info install karma-requirejs@0.2.1
+226 info postinstall karma-requirejs@0.2.1
+227 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-script-launcher
+228 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/karma-script-launcher
+229 info preinstall karma-script-launcher@0.1.0
+230 verbose linkStuff [ false,
+230 verbose linkStuff   false,
+230 verbose linkStuff   false,
+230 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+231 info linkStuff karma-script-launcher@0.1.0
+232 verbose linkBins karma-script-launcher@0.1.0
+233 verbose linkMans karma-script-launcher@0.1.0
+234 verbose rebuildBundles karma-script-launcher@0.1.0
+235 info install karma-script-launcher@0.1.0
+236 info postinstall karma-script-launcher@0.1.0
+237 verbose rebuild bundle /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/requirejs
+238 info build /Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/requirejs
+239 info preinstall requirejs@2.1.11
+240 verbose linkStuff [ false,
+240 verbose linkStuff   false,
+240 verbose linkStuff   false,
+240 verbose linkStuff   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules' ]
+241 info linkStuff requirejs@2.1.11
+242 verbose linkBins requirejs@2.1.11
+243 verbose link bins [ { 'r.js': './bin/r.js' },
+243 verbose link bins   '/Users/svenanders/Work/robbis/webdev/mokklook3/node_modules/.bin',
+243 verbose link bins   false ]
+244 verbose linkMans requirejs@2.1.11
+245 verbose rebuildBundles requirejs@2.1.11
+246 info install requirejs@2.1.11
+247 info postinstall requirejs@2.1.11
+248 info install mokklook-homepage@0.0.2
+249 info postinstall mokklook-homepage@0.0.2
+250 verbose unsafe-perm in lifecycle true
+251 info prepublish mokklook-homepage@0.0.2
+252 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+252 error peerinvalid Peer karma-chrome-launcher@0.1.3 wants karma@>=0.9.3
+252 error peerinvalid Peer karma-firefox-launcher@0.1.3 wants karma@>=0.9
+252 error peerinvalid Peer karma-html2js-preprocessor@0.1.0 wants karma@>=0.9
+252 error peerinvalid Peer karma-jasmine@0.1.5 wants karma@>=0.9
+252 error peerinvalid Peer karma-requirejs@0.2.1 wants karma@>=0.9
+252 error peerinvalid Peer karma-script-launcher@0.1.0 wants karma@>=0.9
+252 error peerinvalid Peer grunt-karma@0.8.3 wants karma@~0.12.0
+252 error peerinvalid Peer karma-coffee-preprocessor@0.1.3 wants karma@>=0.9
+252 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+253 error System Darwin 13.1.0
+254 error command "/usr/local/Cellar/node/0.10.25/bin/node" "/usr/local/bin/npm" "install"
+255 error cwd /Users/svenanders/Work/robbis/webdev/mokklook3
+256 error node -v v0.10.25
+257 error npm -v 1.3.24
+258 error code EPEERINVALID
+259 verbose exit [ 1, true ]

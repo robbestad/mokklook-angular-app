@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>The spaghetti code files</title>
+    <link href="Content/app.css" rel="stylesheet"/>
+</head>
+<body ng-app="recipeApp" ng-cloak class="ng-cloak">
+<div class="container">
+
+    <header ng-controller="recipeController">
+        <h1>{{appName}}</h1>
+
+        <h3>Random recipes</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/search">Search Recipes</a></li>
+            <li><a href="#/random">I feel lucky</a></li>
+            <li><a href="#/weeklymenu">Weekly Menu</a></li>
+            <li><a href="#/toprecipes">Top recipes</a></li>
+            <li><a href="#/contactus">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <content ng-controller="recipeController">
+        <div>
+            <h2>{{recipe.name}}</h2>
+
+            <div class="box">
+                <div class="rightboxcontent">
+                    <table>
+                        <tr>
+                            <td class="style_bold">Price:</td>
+                            <td>{{recipe.price | currency}}</td>
+                        </tr>
+                        <tr>
+                            <td class="style_bold">Cooking Time:</td>
+                            <td>{{recipe.time}}&nbsp;minutes</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="leftboximage">
+
+                    <img class="recipeImage" ng-src="Content/Images/food/{{recipe.image}}.jpg"/>
+                </div>
+            </div>
+            <h3>Ingredients</h3>
+            <ul class="ingredientsList">
+                <!--<li class="ng-repeat" ng-repeat="r in recipe.recipeIngredients">-->
+                <!--{{r.amount}} {{r.amountType}} {{r.ingredient.name}}-->
+                <!--</li>-->
+
+                <li class="ng-repeat" ng-repeat="r in recipe.recipeIngredients"
+                    ng-bind-template="{{r.amount}} {{r.amountType}} {{r.ingredient.name}}"></li>
+
+            </ul>
+
+            <h3>Instructions</h3>
+            <ol>
+                <li class="ng-repeat" ng-repeat="r in recipe.recipeInstructions">
+                    {{r.instructionText}}
+                </li>
+            </ol>
+        </div>
+    </content>
+
+    <footer>
+        <p>
+            <a href="#/">Home</a> | <a href="#/search">Search Recipes</a> |
+            <a href="#/random">I feel lucky</a> | <a href="#/weeklymenu">Weekly Menu</a>
+            | <a href="#/toprecipes">Top Recipes</a> |
+            <a href="#/contactus">Contact Us</a>
+        </p>
+    </footer>
+</div>
+<script type="text/javascript" src="node_modules/angular/lib/angular.min.js"></script>
+<script type="text/javascript" src="Scripts/app/recipeApp.js"></script>
+<script type="text/javascript" src="Scripts/angular-locale_no.js"></script>
+<script type="text/javascript" src="Scripts/app/controllers/controller.js"></script>
+<script type="text/javascript" src="Scripts/Data/recipe.js"></script>
+<script type="text/javascript" src="Scripts/Data/recipies.js"></script>
+
+</body>
+</html>
